@@ -55,7 +55,7 @@ bookToc: true
 ![](/book-of-kiro/images/q_dev/connect_idp.png)
 
 {{% hint warning %}}
-**需要注意**: 已有的用户会被清空。Amazon Q Developer 中订阅的用户也需要清空并重新订阅。
+**需要注意**: 如果连接到 Microsoft AD，已有的用户会被清空。Amazon Q Developer 中订阅的用户也需要清空并重新订阅。如果是连接到 Azure AD（Entra ID）则不会清空已有的用户，但只有相同用户名的用户可以登录。
 {{% /hint %}}
 
 ### **Q. 如何使用 API 实现订阅或批量订阅？**
